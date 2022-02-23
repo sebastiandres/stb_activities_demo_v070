@@ -81,7 +81,7 @@ def main():
                 robot_message = ""
                 for i in range(1, int(N+1)):
                     pb.progress(i/N)
-                    robot_message += random.choice(["Bip ", "bip ", "Bop ", "bop "])
+                    robot_message += random.choice(["BIP ", "bip ", "BOP ", "bop "])
                     ph.code(robot_message)
                     time.sleep(.5)
         else:
