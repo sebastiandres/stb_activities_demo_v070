@@ -5,7 +5,7 @@ import random
 
 def main():
     # Set wide display
-    st.set_page_config(layout="wide")
+    st.set_page_config(layout="wide", page_icon="📝", page_title="Activities Demo 0.7.0")
 
     # Streamlit content
     st.title("Basic streamlit_book behavior")
